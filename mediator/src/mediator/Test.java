@@ -7,11 +7,15 @@ public class Test {
 		remote.initialize(new Fan());
 		remote.on();
 		remote.off();
-		RemoteImpl remote1  = new RemoteImpl();
-		remote1.initialize(new AirConditioner());
-		remote1.on();
-		remote1.off();
+		remote  = new RemoteImpl();
+		remote.initialize(new AirConditioner());
+		remote.on();
+		remote.off();
 		
 
 	}
 }
+
+
+
+
